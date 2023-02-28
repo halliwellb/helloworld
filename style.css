@@ -1,7 +1,17 @@
-/* selector {
-    property: value;
-} */
 
 body {
-    background-color: cornsilk;
+    background-color:rgb(167, 204,250)
+}
+
+header {
+    background-color: rgb(255, 234, 196) ;
+}
+
+footer {
+    background-color: rgb(81, 122, 250);
+}
+
+.lower {
+    width: 30%;
+    display: inline-block;
 }
