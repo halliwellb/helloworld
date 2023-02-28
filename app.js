@@ -12,7 +12,7 @@ if (usersFavoriteAnimal == ""){
   alert("Great choice!");
 }
 
-document.write("Hi " + usersName + " welcome to my page! " + usersFavoriteAnimal + " are so cool! Let me know if you'd like more information about rewilding!");
+document.write("Hi, " + usersName + " welcome to my page! " + usersFavoriteAnimal + " are so cool! Let me know if you'd like more information about rewilding!");
 
 
 // alert("Thank you for visiting!");
