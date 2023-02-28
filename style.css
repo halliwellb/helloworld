@@ -6,6 +6,7 @@ body {
 header {
     background-color: rgb(255, 234, 196);
     border: 5px groove white;
+    border-radius: 5%;
     height: 150px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
