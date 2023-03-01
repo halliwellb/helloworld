@@ -1,13 +1,5 @@
 alert("Thank you for visiting!");
 
-let myNumber = 12;
-
-let userGuess = prompt("Guess a number between 1 & 15");
-
-while (userGuess != myNumber) {
-  userGuess = prompt("Wrong! Guess again. A number between 1 & 15");
-}
-
 let usersName = prompt("What is your name?");
 
 if (usersName == "") {
@@ -27,4 +19,12 @@ document.write("Hi, " + usersName + " welcome to my page! " + usersFavoriteAnima
 let userNum = prompt("Pick a number between 1 & 3 please")
 for (let i = 0; i < userNum; i++) {
   document.write("<img src='Mt.BlueResized.jpg' alt='' />");
+}
+
+let myNumber = 12;
+
+let userGuess = prompt("Guess a number between 1 & 15");
+
+while (userGuess != myNumber) {
+  userGuess = prompt("Wrong! Guess again. A number between 1 & 15");
 }
