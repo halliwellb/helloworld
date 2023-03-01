@@ -1,5 +1,7 @@
 alert("Thank you for visiting!");
+
 let myNumber = 12;
+
 let userGuess = prompt("Guess a number between 1 & 15");
 
 while (userGuess != myNumber) {
